@@ -6,11 +6,14 @@ const app: Application = express();
 
 // Basic CORS configuration for development
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:5174'], // Vite dev server ports
+  origin: [
+    'http://localhost:5173',
+    'http://localhost:5174',
+    'https://airbnb-clone-mu-steel.vercel.app',
+  ],
   methods: ['GET'],
   credentials: true,
 }));
-
 // JSON parsing middleware
 app.use(express.json());
 
