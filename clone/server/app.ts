@@ -9,7 +9,7 @@ app.use(cors({
   origin: [
     'http://localhost:5173',
     'http://localhost:5174',
-    'https://airbnb-clone-mu-steel.vercel.app',
+    'https://airbnb-clone-iota-plum.vercel.app',
   ],
   methods: ['GET'],
   credentials: true,
