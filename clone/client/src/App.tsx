@@ -13,7 +13,7 @@ import PhotoTour from './components/PhotoTour';
 import Lightbox from './components/Lightbox';
 
 
-const API_URL = 'https://airbnb-clone-lln3.onrender.com/api/property';
+const API_URL = 'https://airbnb-clone-fo0c.onrender.com/api/property';
 
 export default function App() {
   const [property, setProperty] = useState<Property | null>(null);
